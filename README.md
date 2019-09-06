@@ -3,6 +3,11 @@
 Run the following to reproduce the bug
 
 ```bash
+git clone git@github.com:blakedietz/dynamoose-model-bug.git;
+npm i;
+npm run env:setup;
+npm start;
+
 curl -X POST \
   http://localhost:3000/product \
   -H 'Accept: */*' \
